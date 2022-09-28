@@ -1,0 +1,23 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1C2B35;
+  height: 80px;
+}
+.navbar img{
+  margin-left: 112px;
+}
+.navbar div{
+  margin-right: 112px;
+}
+.navbar a{
+  font-size: 17px;
+  color:  #FFFFFF;
+  text-decoration: none;
+  margin-left: 32px;
+}
+
+.navbar a:hover{
+  color: orange;
+}
