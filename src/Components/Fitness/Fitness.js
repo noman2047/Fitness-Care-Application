@@ -5,6 +5,7 @@ import './Fitness.css'
 import Myinfo from '../Myinfo/Myinfo';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import Question from '../Question/Question';
+import Footer from '../footer/Footer';
 
 const Fitness = () => {
   const [users,setUsers]=useState([])
@@ -43,6 +44,7 @@ const Fitness = () => {
           }
           </div>
           <Question></Question>
+          <Footer></Footer>
       </div>
 
 
