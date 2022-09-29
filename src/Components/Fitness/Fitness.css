@@ -20,6 +20,11 @@
     padding: 40px;
   }
 }
+.exercise-details{
+  background-color: #b0b8d0;
+  position: sticky;
+  top: 0px;
+}
 
 .titleWithlogo{
   display: flex;

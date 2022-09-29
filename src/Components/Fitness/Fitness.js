@@ -4,6 +4,7 @@ import logo from '../../images/gym3.ico'
 import './Fitness.css'
 import Myinfo from '../Myinfo/Myinfo';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
+import Question from '../Question/Question';
 
 const Fitness = () => {
   const [users,setUsers]=useState([])
@@ -41,6 +42,7 @@ const Fitness = () => {
             users.map(user=><ToDayExercise key={user.nameOfActivity} user={user} handalAddToExerciseDetails={handalAddToExerciseDetails}></ToDayExercise>)
           }
           </div>
+          <Question></Question>
       </div>
 
 
