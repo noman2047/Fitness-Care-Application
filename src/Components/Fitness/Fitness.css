@@ -3,6 +3,11 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
+.exercise-details{
+  position:sticky;
+  top:10px;
+  background-color: #b0b8d0;
+}
 .titleWithlogo{
   display: flex;
   align-items: flex-end;
@@ -19,9 +24,7 @@
 .todays-exercise{
   margin-left: 100px;
 }
-.exercise-details{
-  background-color: #b0b8d0;
-}
+
 
 .addbreak{
   display: flex;

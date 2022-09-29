@@ -3,14 +3,30 @@ import ToDayExercise from '../ToDayExercise/ToDayExercise';
 import logo from '../../images/gym3.ico'
 import './Fitness.css'
 import Myinfo from '../Myinfo/Myinfo';
+import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 
 const Fitness = () => {
   const [users,setUsers]=useState([])
+  const [totalTime,settotalTime]=useState([])
+  const [breakTime1,setBreakTime]=useState(0)
+
+  console.log(breakTime1);
+
   useEffect(()=>{
     fetch('activitydata.json')
     .then(req=>req.json())
     .then(data=>setUsers(data))
   },[])
+
+  const handalAddToExerciseDetails=(privTime)=>{
+    const newtime=[...totalTime,privTime];
+    settotalTime(newtime);
+  }
+
+  const breakTime = (time) =>{
+    setBreakTime(time)
+
+  }
   return (
     <div className='OverallContainer'>
      
@@ -22,7 +38,7 @@ const Fitness = () => {
         <h3 style={{marginLeft:"14px" , color: "orange"}}>Select today’s exercise</h3>
           <div className="userInCard">
           {
-            users.map(user=><ToDayExercise user={user}></ToDayExercise>)
+            users.map(user=><ToDayExercise key={user.nameOfActivity} user={user} handalAddToExerciseDetails={handalAddToExerciseDetails}></ToDayExercise>)
           }
           </div>
       </div>
@@ -34,22 +50,17 @@ const Fitness = () => {
         <h3 style={{marginLeft:'20px'}}>Add A Break</h3>
 
         <div className='addbreak'>
-          <h3>10<small style={{color:"gray"}}>s</small></h3>
-          <h3>20<small style={{color:"gray"}}>s</small></h3>
-          <h3>30<small style={{color:"gray"}}>s</small></h3>
-          <h3>40<small style={{color:"gray"}}>s</small></h3>
-          <h3>50<small style={{color:"gray"}}>s</small></h3>
+          <button onClick={()=>breakTime(10)}><h3>10<small style={{color:"gray"}}>s</small></h3></button>
+          <button onClick={()=>breakTime(20)}><h3>20<small style={{color:"gray"}}>s</small></h3></button>
+          <button onClick={()=>breakTime(30)}>  <h3>30<small style={{color:"gray"}}>s</small></h3></button>
+          <button onClick={()=>breakTime(40)}> <h3>40<small style={{color:"gray"}}>s</small></h3></button>
+          <button onClick={()=>breakTime(50)}> <h3>50<small style={{color:"gray"}}>s</small></h3></button>
         </div>
 
         <div className='exercise'>
           <div>
-             <h3>Exercise Details</h3>
-             <div className="exerciseTime">
-              <h4>Exercise Time :</h4>
-             </div>
-             <div className="breakTime">
-              <h4>Break Time :</h4>
-             </div>
+            <ExerciseDetails totalTime={totalTime} addbreak={breakTime1}></ExerciseDetails>
+             
           </div>
         </div>
         </div>
