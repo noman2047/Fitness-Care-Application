@@ -1,5 +1,4 @@
 import './ToDayExercise.css'
-
 import React from 'react';
 
 const ToDayExercise = (props) => {
@@ -13,7 +12,7 @@ const ToDayExercise = (props) => {
         <p><small>{aboutzActivity}</small></p>
         <p>For Age : <strong>{forAge}</strong></p>
         <p>Time Required : <strong>{timeRequired}</strong> <small>S</small></p>
-        <button onClick={()=>props.handalAddToExerciseDetails(timeRequired)}>Add To List</button>
+        <button onClick={()=>handalAddToExerciseDetails(timeRequired)}>Add To List</button>
       </div>
       
     </div>

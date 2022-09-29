@@ -1,11 +1,14 @@
 import React from 'react';
 import './Exercise.css'
 
+
 const ExerciseDetails = (props) => {
   let time=0;
   for(const singleTime of props.totalTime){
     time=time + singleTime;
   }
+
+ 
   return (
     <div>
         <h3>Exercise Details</h3>
