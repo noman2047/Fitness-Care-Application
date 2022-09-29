@@ -2,7 +2,7 @@ import './ToDayExercise.css'
 import React from 'react';
 
 const ToDayExercise = (props) => {
-  const {img,nameOfActivity,aboutzActivity,forAge,timeRequired,handalAddToExerciseDetails}=props.user;
+  const {img,nameOfActivity,aboutzActivity,forAge,timeRequired}=props.user;
 
   return (
     <div>
@@ -12,7 +12,7 @@ const ToDayExercise = (props) => {
         <p><small>{aboutzActivity}</small></p>
         <p>For Age : <strong>{forAge}</strong></p>
         <p>Time Required : <strong>{timeRequired}</strong> <small>S</small></p>
-        <button onClick={()=>handalAddToExerciseDetails(timeRequired)}>Add To List</button>
+        <button onClick={()=>props.handalAddToExerciseDetails(timeRequired)}>Add To List</button>
       </div>
       
     </div>

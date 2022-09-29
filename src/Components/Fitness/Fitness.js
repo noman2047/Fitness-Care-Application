@@ -11,8 +11,8 @@ const Fitness = () => {
   const [users,setUsers]=useState([])
   const [totalTime,settotalTime]=useState([])
   const [breakTime1,setBreakTime]=useState(0)
-
-  console.log(breakTime1);
+  const [breakTime2,setBreakTime2]=useState(0)
+  
 
   useEffect(()=>{
     fetch('activitydata.json')
@@ -20,14 +20,19 @@ const Fitness = () => {
     .then(data=>setUsers(data))
   },[])
 
+  useEffect(()=>{
+    const getTime=localStorage.getItem('break');
+    setBreakTime2(getTime)
+  })
+
   const handalAddToExerciseDetails=(privTime)=>{
     const newtime=[...totalTime,privTime];
-    settotalTime(newtime);
+    settotalTime(newtime); 
   }
 
   const breakTime = (time) =>{
+    localStorage.setItem('break',time);
     setBreakTime(time)
-
   }
   return (
     <div className='OverallContainer'>
@@ -63,7 +68,7 @@ const Fitness = () => {
 
         <div className='exercise'>
           <div>
-            <ExerciseDetails totalTime={totalTime} addbreak={breakTime1}></ExerciseDetails>
+            <ExerciseDetails totalTime={totalTime} addbreak={breakTime2}></ExerciseDetails>
              
           </div>
         </div>

@@ -7,8 +7,6 @@ const ExerciseDetails = (props) => {
   for(const singleTime of props.totalTime){
     time=time + singleTime;
   }
-
- 
   return (
     <div>
         <h3>Exercise Details</h3>
