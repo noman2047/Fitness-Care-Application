@@ -22,3 +22,23 @@
 .exercise-details{
   background-color: #b0b8d0;
 }
+
+.addbreak{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px;
+  margin: auto;
+  margin: 0px 20px;
+  background-color: white;
+}
+.exercise{
+  margin: 20px;
+}
+.exercise h4{
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+}

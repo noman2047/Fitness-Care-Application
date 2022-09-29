@@ -2,6 +2,7 @@ import React, {useEffect, useState } from 'react';
 import ToDayExercise from '../ToDayExercise/ToDayExercise';
 import logo from '../../images/gym3.ico'
 import './Fitness.css'
+import Myinfo from '../Myinfo/Myinfo';
 
 const Fitness = () => {
   const [users,setUsers]=useState([])
@@ -28,7 +29,30 @@ const Fitness = () => {
 
 
       <div className="exercise-details">
-        <h2>Noman Khan</h2>
+        <Myinfo></Myinfo>
+        <div>
+        <h3 style={{marginLeft:'20px'}}>Add A Break</h3>
+
+        <div className='addbreak'>
+          <h3>10<small style={{color:"gray"}}>s</small></h3>
+          <h3>20<small style={{color:"gray"}}>s</small></h3>
+          <h3>30<small style={{color:"gray"}}>s</small></h3>
+          <h3>40<small style={{color:"gray"}}>s</small></h3>
+          <h3>50<small style={{color:"gray"}}>s</small></h3>
+        </div>
+
+        <div className='exercise'>
+          <div>
+             <h3>Exercise Details</h3>
+             <div className="exerciseTime">
+              <h4>Exercise Time :</h4>
+             </div>
+             <div className="breakTime">
+              <h4>Break Time :</h4>
+             </div>
+          </div>
+        </div>
+        </div>
       </div>
       
     </div>
