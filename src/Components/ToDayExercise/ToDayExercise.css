@@ -17,9 +17,6 @@
 .card p{
   margin-left: 10px;
 }
-.card p small{
-  word-wrap:break-word;
-}
 .card button{
   padding: 8px 10px;
   width: 100%;
@@ -27,6 +24,10 @@
   font-size: 18px;
   background-color:#5d5fef;
   border-style: none;
+  cursor: pointer;
+}
+.card button:hover{
+  background-color:red;
 }
 .userInCard{
   margin-top: 40px;
@@ -34,4 +35,14 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .userInCard {
+    margin-top: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+  }
 }

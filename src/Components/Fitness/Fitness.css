@@ -3,11 +3,24 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
-.exercise-details{
-  position:sticky;
-  top:10px;
-  background-color: #b0b8d0;
+@media screen and (max-width: 500px) {
+  .todays-exercise{
+    margin:20px;
+  }
+  .OverallContainer {
+    display: grid;
+    grid-template-columns:1fr;
+    margin-top: 10px;
+  }
 }
+@media screen and (max-width: 500px) {
+  .exercise-details{
+    margin-top: 40px;
+    background-color: #b0b8d0;
+    padding: 40px;
+  }
+}
+
 .titleWithlogo{
   display: flex;
   align-items: flex-end;
@@ -35,6 +48,9 @@
   margin: auto;
   margin: 0px 20px;
   background-color: white;
+}
+.addbreak button:hover{
+  background-color: greenyellow;
 }
 .exercise{
   margin: 20px;
