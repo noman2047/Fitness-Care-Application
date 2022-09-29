@@ -1,0 +1,24 @@
+.OverallContainer{
+  background-color: #f2f4fa;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.titleWithlogo{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.titleWithlogo h2{
+  font-family: 'Berkshire Swash', cursive;
+  margin: 0;
+}
+.titleWithlogo img{
+  height: 80px;
+}
+
+.todays-exercise{
+  margin-left: 100px;
+}
+.exercise-details{
+  background-color: #b0b8d0;
+}

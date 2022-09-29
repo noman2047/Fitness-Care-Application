@@ -1,0 +1,102 @@
+[
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_mYK3gTOAVWxeNIY01pkf24c0UzY3Q0DgnH_9b5g&s",
+
+    "nameOfActivity": "Squat rack",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "30-35",
+    "timeRequired": 50
+  },
+  {
+    "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg",
+
+    "nameOfActivity": "Barbells",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "20-25",
+    "timeRequired": 40
+  },
+  {
+    "img": "https://as2.ftcdn.net/v2/jpg/03/20/45/95/1000_F_320459521_BeH9lOrFRWkapRbqNByK5nJGZvBKy1K0.jpg",
+
+    "nameOfActivity": "Dumbbells",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "30-45",
+    "timeRequired": 20
+  },
+
+  {
+    "img": "https://as2.ftcdn.net/v2/jpg/01/19/02/41/1000_F_119024139_myvWSH6zo9kwTk91Sn674RA7CfkxI3Ru.jpg",
+
+    "nameOfActivity": "LAT machine",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "31-35",
+    "timeRequired": 30
+  },
+  {
+    "img": "https://as1.ftcdn.net/v2/jpg/05/27/41/44/1000_F_527414445_YDDK8FzFgVxzV9BxEVL0tvBuetvKUkxn.jpg",
+
+    "nameOfActivity": "Dipping bars",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "18-25",
+    "timeRequired": 50
+  },
+  {
+    "img": "https://as2.ftcdn.net/v2/jpg/03/17/72/47/1000_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg",
+
+
+    "nameOfActivity": "Treadmill",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "40-45",
+    "timeRequired": 40
+  },
+
+  {
+    "img": "https://as2.ftcdn.net/v2/jpg/02/07/90/87/1000_F_207908753_IgTqqhNJMOnWOgSNLXayj6MYaj91gdjp.jpg",
+
+    "nameOfActivity": "Pushups",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "30-45",
+    "timeRequired": 50
+  },
+  {
+    "img": "https://as2.ftcdn.net/v2/jpg/02/43/13/15/1000_F_243131531_jmNppYX9Ux2Hj2RV9yYR1swicwcYr8EQ.jpg",
+
+    "nameOfActivity": "Standing ",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "24-28",
+    "timeRequired": 38
+  },
+  {
+    "img": "https://as2.ftcdn.net/v2/jpg/03/17/72/47/1000_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg",
+
+    "nameOfActivity": "Lunges",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "20-35",
+    "timeRequired": 40
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR2or7Ohfc5FdGD8FnJg_7odJgteCICso0uPOB5RcFMJlEP0Dnx5kTKRmBI8vDJTORyWk&usqp=CAU",
+
+    "nameOfActivity": "Side planks",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "18-35",
+    "timeRequired": 10
+  },
+  {
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxAPT4Cv9yZH8kgSa2_r0tw57VB46I8mvzQwi6UE0sHbrTyxK2T4_NTWiG7ofI1h_YpD4&usqp=CAU",
+
+    "nameOfActivity": "Squats",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "50-55",
+    "timeRequired": 10
+  },
+  {
+    
+    "img": "https://as1.ftcdn.net/v2/jpg/03/20/45/94/1000_F_320459487_SAvrvfR4NN4CkFQccj49rBfmiLoYebuw.jpg",
+    "nameOfActivity": "Challenging ",
+    "aboutzActivity": "We know daily exercise is good for optimizing health.But a with so many options optimizing. daily exercise",
+    "forAge": "20-25",
+    "timeRequired": 30
+  }
+]
+

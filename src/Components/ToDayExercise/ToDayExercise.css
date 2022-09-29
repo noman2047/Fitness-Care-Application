@@ -1,0 +1,37 @@
+.card img{
+  width: 230px;
+  height: 120px;
+  border: 2px solid wheat;
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px;
+}
+.card h3{
+  text-align: center;
+  margin: 0;
+}
+.card{
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.card p{
+  margin-left: 10px;
+}
+.card p small{
+  word-wrap:break-word;
+}
+.card button{
+  padding: 8px 10px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  background-color:#5d5fef;
+  border-style: none;
+}
+.userInCard{
+  margin-top: 40px;
+  margin-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+}
